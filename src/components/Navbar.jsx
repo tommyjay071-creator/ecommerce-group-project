@@ -1,7 +1,16 @@
 function Navbar() {
   return (
-    <nav>
-      <h2>Tomiwa Store</h2>
+    <nav className="navbar">
+      <h2 className="logo">E-Commerce Store</h2>
+
+      <ul className="nav-links">
+        <li>Home</li>
+        <li>Shop</li>
+        <li>Categories</li>
+        <li>Contact</li>
+      </ul>
+
+      <button className="login-btn">Login</button>
     </nav>
   );
 }
